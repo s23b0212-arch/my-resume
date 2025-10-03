@@ -3,7 +3,18 @@ import streamlit as st
 # ===== Resume Page =====
 st.title("Charukeshi A/P Thinagaran")
 
-st.markdown("<h1 style='color:DarkBlue;'>Charukeshi A/P Thinagaran</h1>", unsafe_allow_html=True)
+# ===== Background Color (CSS) =====
+page_bg = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-color: #f2f2f2;
+}
+[data-testid="stHeader"] {
+    background-color: rgba(0,0,0,0);
+}
+</style>
+"""
+st.markdown(page_bg, unsafe_allow_html=True)
 
 # Profile Picture
 st.image("profile.jpeg", width=180)  # make sure profile.jpeg is in the same folder
