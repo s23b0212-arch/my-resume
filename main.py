@@ -14,14 +14,8 @@ page_style = """
 footer {visibility: hidden;}
 
 /* Header colors */
-h1 {
+h1, h2, h3 {
     color: DarkBlue;
-}
-h2 {
-    color: DarkRed;
-}
-h3 {
-    color: DarkGreen;
 }
 </style>
 """
