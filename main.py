@@ -1,76 +1,119 @@
 import streamlit as st
 
-# ===== Title with Profile Picture =====
-col1, col2 = st.columns([1, 3])
+# ==========================
+# HEADER (Name & Title)
+# ==========================
+st.markdown("<h1 style='text-align: center; color: #0E1117;'>CHARUKESHI A/P THINAGARAN</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: gray;'>IT STUDENT</h3>", unsafe_allow_html=True)
+st.markdown("---")
 
-with col1:
-    st.image("profile.jpeg", width=150)  # <-- replace with your photo file
-
-with col2:
-    st.title("Charu Thinagaran")
-    st.write("📍 Kelantan, Malaysia")
-    st.write("💼 Undergraduate Student | Aspiring Software Engineer")
-
-# ===== Contact Information =====
-st.header("📞 Contact Information")
-st.markdown("""
-- **Email:** charu.email@example.com  
-- **Phone:** +60 12-345 6789  
-- **LinkedIn:** [linkedin.com/in/charu-thinagaran](https://linkedin.com/in/charu-thinagaran)  
-- **GitHub:** [github.com/charukeshi](https://github.com/charukeshi)
+# ==========================
+# PROFILE
+# ==========================
+st.header("📌 Profile")
+st.write("""
+I am a fourth-semester undergraduate student at UMK, motivated and adaptable, seeking to expand my skills, gain new knowledge, and grow both personally and academically while embracing challenges beyond the classroom.
 """)
 
-# ===== Education =====
+# ==========================
+# EDUCATION
+# ==========================
 st.header("🎓 Education")
 st.markdown("""
-**Bachelor of Information Technology** – Universiti Malaysia Kelantan (2022 – Present)  
-- Major: Software Engineering  
-- CGPA: 3.6/4.0
+- **2023 - Present**: Bachelor of Information Technology with Honours (UMK) – CGPA: 3.83  
+- **2022**: Diploma Vokasional Malaysia, Database Management System – Certified with DKM, SKM, Level 4  
+- **2021**: Malaysian Certification Skills Application Development – Certified with Level 3  
+- **2021**: Diploma in Database Management System, Technology & Web Application – CGPA: 3.45
 """)
 
-# ===== Work Experience =====
+# ==========================
+# WORK EXPERIENCE
+# ==========================
 st.header("💼 Work Experience")
-st.subheader("Intern – ABC Tech Solutions (2024)")
 st.markdown("""
-- Assisted in developing a dashboard using Streamlit  
-- Improved data visualization workflows  
-- Documented processes and supported user training
+- **2023**: Graphic Designer (Internship) – GIC Computer & Internet Centre
 """)
 
-# ===== Skills =====
-st.header("🛠 Skills")
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown("""
-    - Python  
-    - Java  
-    - SQL  
-    - Streamlit
-    """)
-
-with col2:
-    st.markdown("""
-    - HTML, CSS, JavaScript  
-    - GitHub  
-    - Excel, PowerPoint  
-    - Communication & Teamwork
-    """)
-
-# ===== Projects & Achievements =====
-st.header("🚀 Projects & Achievements")
-st.subheader("Portfolio Website")
-st.write("Created a personal resume website using Streamlit.")
-
-st.subheader("Gold Award – Innovation Competition")
-st.write("Won Gold for innovative project design at university-level competition.")
-
-st.subheader("National Youth Day – Multimedia Committee")
-st.write("Contributed as Multimedia Committee member for district-level event at UMK.")
-
-# ===== Extra Section =====
-st.header("✨ Co-Curricular Activities")
+# ==========================
+# OUTSTANDING ACHIEVEMENTS
+# ==========================
+st.header("🏆 Outstanding Achievements")
 st.markdown("""
-- Netball Club Member (2023 – Present)  
-- Active participant in seminars and volunteer programs  
+- 2025: Netball Club Member  
+- 2024: Facilitator, Avira 1.0 | Assisted in event coordination & participant guidance  
+- 2024: Exco, Netball Club (Entrepreneurship) | Contributed to club management & event planning  
+- 2023: Final Year Project | Developed an E-Attendance System using Arduino with fingerprint sensors  
 """)
+
+# ==========================
+# HONORS & AWARDS
+# ==========================
+st.header("🎖 Honors and Awards")
+st.markdown("""
+- Dean’s List Award (Semester 3) – Bachelor of IT  
+- District Level Netball Athlete  
+- Gold Award – Final Year Project & Innovation Poster Competition (2024)  
+""")
+
+# ==========================
+# CO-CURRICULAR
+# ==========================
+st.header("🤝 Co-Curricular Achievements")
+st.markdown("""
+- 2024: Competed in Kejohanan Bola Jaring Terbuka UMK  
+- 2024: Multimedia Committee Member for District-Level National Youth Day Event @ UMK  
+- 2023: Podcast Seminar Participant  
+- 2022: Outstanding Student Award (Competition KVSP)  
+- 2022: Participated in Bengkel Pembudayaan Inovasi  
+""")
+
+# ==========================
+# PERSONAL SKILLS
+# ==========================
+st.header("🧩 Personal Skills")
+st.markdown("""
+- Teamwork  
+- Creative  
+- Organised  
+- Communication
+""")
+
+# ==========================
+# CORE STRENGTHS
+# ==========================
+st.header("💡 Core Strengths")
+st.markdown("""
+- Computer Software Applications (Word, Excel, PowerPoint)  
+- Web Design & Development  
+- Programming (Java, PHP, HTML, CSS)  
+- Mobile App Development  
+- Software Testing & Quality Assurance  
+- Project Management & Leadership  
+""")
+
+# ==========================
+# LANGUAGES
+# ==========================
+st.header("🌐 Languages")
+st.markdown("""
+- English – Expert  
+- Malay – Expert  
+- Tamil – Expert  
+- Mandarin – Beginner  
+- French – Beginner  
+""")
+
+# ==========================
+# REFERENCE
+# ==========================
+st.header("📎 Reference")
+st.markdown("""
+**Prof. Madya Dr. Nooraini Binti Yusoff**  
+Advisor – Universiti Malaysia Kelantan  
+""")
+
+# ==========================
+# FOOTER LINE
+# ==========================
+st.markdown("---")
+st.markdown("<p style='text-align: center; color: gray;'>© 2025 Charukeshi A/P Thinagaran | Streamlit Resume</p>", unsafe_allow_html=True)
