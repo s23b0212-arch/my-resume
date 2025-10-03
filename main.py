@@ -5,38 +5,59 @@ st.title("CHARUKESHI A/P THINAGARAN")
 st.image("profile.jpeg", width=180)
 
 # Contact Information
-st.markdown("### 📞 Contact Information")
-st.write(" Email: charukeshithinagaran.email@gmail.com")
-st.write(" Phone: +60 16-345 6789")
-st.write(" LinkedIn: linkedin.com/in/charu-thinagaran")
-st.write(" GitHub: github.com/charukeshi")
+st.header("📞 Contact Information")
+st.write("**Email:** charukeshithinagaran.email@gmail.com")
+st.write("**Phone:** +60 16-345 6789")
+st.write("**LinkedIn:** linkedin.com/in/charu-thinagaran")
+st.write("**GitHub:** github.com/charukeshi")
+
+st.divider()  # Separator
 
 # About Me
-st.markdown("### 👩 About Me")
-st.write("I am a fourth-semester undergraduate student at UMK, motivated and adaptable, seeking to expand my skills, gain new knowledge, and grow both personally and academically while embracing challenges beyond the classroom.")
+st.header("👩 About Me")
+st.write(
+    "I am a fourth-semester undergraduate student at UMK, motivated and adaptable, "
+    "seeking opportunities to expand my skills, gain new knowledge, and grow both "
+    "personally and academically while embracing challenges beyond the classroom."
+)
+
+st.divider()  # Separator
 
 # Education
-st.markdown("### 🎓 Education")
-st.write("2023 - Present: Bachelor of Information Technology with Honours, UMK")
+st.header("🎓 Education")
+st.write("**Bachelor of Information Technology with Honours**")
+st.write("Universiti Malaysia Kelantan (2023 - Present)")
+
+st.divider()  # Separator
 
 # Work Experience
-st.markdown("### 💼 Work Experience")
-st.write("2023: Graphic Designer (Internship), Computer Centre")
+st.header("💼 Work Experience")
+st.write("**Graphic Designer Intern**, Computer Centre (2023)")
+st.write("- Designed promotional materials and digital graphics")
+st.write("- Assisted with multimedia content creation")
+
+st.divider()  # Separator
 
 # Skills
-st.markdown("### 🛠 Skills")
-st.write("- Teamwork")
-st.write("- Creative & Organised")
-st.write("- Communication")
-st.write("- Microsoft Office (Word, Excel, PowerPoint)")
-st.write("- Programming (Java, PHP, HTML, CSS)")
-st.write("- Web & Mobile App Development")
+st.header("🛠 Skills")
+st.write(
+    "- Teamwork\n"
+    "- Creativity & Organisation\n"
+    "- Communication\n"
+    "- Microsoft Office (Word, Excel, PowerPoint)\n"
+    "- Programming (Java, PHP, HTML, CSS)\n"
+    "- Web & Mobile App Development"
+)
 
-# Projects / Achievements
-st.markdown("### 🚀 Projects & Achievements")
+st.divider()  # Separator
+
+# Projects & Achievements
+st.header("🚀 Projects & Achievements")
 st.write("- Facilitator, Avira 1.0 Event (2024)")
 st.write("- Dean’s List Award (Semester 3)")
 
-# Reference
-st.markdown("### 📎 Reference")
-st.write("Prof. Madya Dr. Nooraini Binti Yusoff - Advisor, Universiti Malaysia Kelantan")
+st.divider()  # Separator
+
+# References
+st.header("📎 References")
+st.write("Prof. Madya Dr. Nooraini Binti Yusoff – Advisor, Universiti Malaysia Kelantan")
