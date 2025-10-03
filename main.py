@@ -12,7 +12,7 @@ page_bg = """
 [data-testid="stHeader"] {
     background-color: rgba(0,0,0,0);
 }
-</style>
+
 """
 st.markdown(page_bg, unsafe_allow_html=True)
 
@@ -60,3 +60,5 @@ st.write("- Dean’s List Award (Semester 3)")
 # Reference
 st.header("📎 Reference")
 st.write("Prof. Madya Dr. Nooraini Binti Yusoff — Advisor, Universiti Malaysia Kelantan")
+
+</style>
