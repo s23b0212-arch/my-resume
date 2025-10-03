@@ -2,26 +2,32 @@ import streamlit as st
 
 # ===== Resume Page =====
 st.title("Charukeshi A/P Thinagaran")
-  st.image("profile.jpeg", width=180)
+
+# Profile Picture
+st.image("profile.jpeg", width=180)  # make sure profile.jpeg is in the same folder
 
 # Contact Information
 st.header("📞 Contact Information")
-st.write("Email: charu.email@example.com")
-st.write("Phone: +60 12-345 6789")
-st.write("LinkedIn: linkedin.com/in/charu-thinagaran")
-st.write("GitHub: github.com/charukeshi")
+st.write("📧 Email: charu.email@example.com")
+st.write("📱 Phone: +60 12-345 6789")
+st.write("🔗 LinkedIn: linkedin.com/in/charu-thinagaran")
+st.write("💻 GitHub: github.com/charukeshi")
 
 # About Me
 st.header("👩 About Me")
-st.write("I am a fourth-semester undergraduate student at UMK, motivated and adaptable, seeking to expand my skills, gain new knowledge, and grow both personally and academically while embracing challenges beyond the classroom.")
+st.write(
+    "I am a fourth-semester undergraduate student at UMK, motivated and adaptable, "
+    "seeking to expand my skills, gain new knowledge, and grow both personally and academically "
+    "while embracing challenges beyond the classroom."
+)
 
 # Education
 st.header("🎓 Education")
-st.write("2023 - Present: Bachelor of Information Technology with Honours, UMK ")
+st.write("**2023 - Present** | Bachelor of Information Technology with Honours, UMK")
 
 # Work Experience
 st.header("💼 Work Experience")
-st.write("2023: Graphic Designer (Internship), GIC Computer & Internet Centre")
+st.write("**2023** | Graphic Designer (Internship), GIC Computer & Internet Centre")
 
 # Skills
 st.header("🛠 Skills")
@@ -40,4 +46,4 @@ st.write("- Dean’s List Award (Semester 3)")
 
 # Reference
 st.header("📎 Reference")
-st.write("Prof. Madya Dr. Nooraini Binti Yusoff - Advisor, Universiti Malaysia Kelantan")
+st.write("Prof. Madya Dr. Nooraini Binti Yusoff — Advisor, Universiti Malaysia Kelantan")
