@@ -5,7 +5,7 @@ st.title("Charukeshi A/P Thinagaran")
 st.image("profile.jpeg", width=180)
 
 # Contact Information
-st.header("📞 Contact Information")
+st.header("📞 Contact Information, width=100")
 st.write("📧 Email: charu.email@example.com")
 st.write("📱 Phone: +60 12-345 6789")
 st.write("🔗 LinkedIn: linkedin.com/in/charu-thinagaran")
