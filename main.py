@@ -20,7 +20,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 # Contact Information
 st.markdown("### 📞 Contact Information")
 st.write(" Email: charukeshithinagaran.email@gmail.com")
