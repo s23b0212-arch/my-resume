@@ -1,15 +1,8 @@
 import streamlit as st
 
 # ===== Resume Page =====
-# Centered Name
-st.markdown(
-    """
-    <h1 style='text-align: center; color: black;'>
-        CHARUKESHI A/P THINAGARAN
-    </h1>
-    """,
-    unsafe_allow_html=True
-)
+st.title("CHARUKESHI A/P THINAGARAN")
+st.image("profile.jpeg", width=180,)
 
 # Centered profile image
 st.markdown(
