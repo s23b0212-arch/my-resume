@@ -1,13 +1,13 @@
 import streamlit as st
 
 # ===== Resume Page =====
-st.title("Charukeshi A/P Thinagaran")
+st.title("CHARUKESHI A/P THINAGARAN")
 st.image("profile.jpeg", width=180)
 
 # Contact Information
 st.markdown("### 📞 Contact Information")
-st.write("📧 Email: charu.email@example.com")
-st.write("📱 Phone: +60 12-345 6789")
+st.write("📧 Email: charu.email@gmail.com")
+st.write("📱 Phone: +60 16-345 6789")
 st.write("🔗 LinkedIn: linkedin.com/in/charu-thinagaran")
 st.write("💻 GitHub: github.com/charukeshi")
 
@@ -21,7 +21,7 @@ st.write("2023 - Present: Bachelor of Information Technology with Honours, UMK")
 
 # Work Experience
 st.markdown("### 💼 Work Experience")
-st.write("2023: Graphic Designer (Internship), GIC Computer & Internet Centre")
+st.write("2023: Graphic Designer (Internship), Computer Centre")
 
 # Skills
 st.markdown("### 🛠 Skills")
@@ -34,7 +34,6 @@ st.write("- Web & Mobile App Development")
 
 # Projects / Achievements
 st.markdown("### 🚀 Projects & Achievements")
-st.write("- Final Year Project: E-Attendance System using Arduino with fingerprint sensors")
 st.write("- Facilitator, Avira 1.0 Event (2024)")
 st.write("- Dean’s List Award (Semester 3)")
 
