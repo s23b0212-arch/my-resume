@@ -1,12 +1,12 @@
 import streamlit as st
 
-# ===== Custom Page Style =====
+# ===== Force Custom Page Style =====
 page_style = """
 <style>
 /* Change background */
 [data-testid="stAppViewContainer"] {
-    background-color: #f2f2f2;   /* Light grey */
-    color: black;                /* Text color */
+    background-color: #f2f2f2 !important;   /* Light grey */
+    color: black !important;                /* Text color */
 }
 
 /* Hide Streamlit default menu & footer */
@@ -15,7 +15,7 @@ footer {visibility: hidden;}
 
 /* Header colors */
 h1, h2, h3 {
-    color: DarkBlue;
+    color: DarkBlue !important;
 }
 </style>
 """
