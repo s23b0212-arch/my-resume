@@ -5,26 +5,26 @@ st.title("Charukeshi A/P Thinagaran")
 st.image("profile.jpeg", width=180)
 
 # Contact Information
-st.header("📞 Contact Information, width=100")
+st.markdown("### 📞 Contact Information")
 st.write("📧 Email: charu.email@example.com")
 st.write("📱 Phone: +60 12-345 6789")
 st.write("🔗 LinkedIn: linkedin.com/in/charu-thinagaran")
 st.write("💻 GitHub: github.com/charukeshi")
 
 # About Me
-st.header("👩 About Me")
+st.markdown("### 👩 About Me")
 st.write("I am a fourth-semester undergraduate student at UMK, motivated and adaptable, seeking to expand my skills, gain new knowledge, and grow both personally and academically while embracing challenges beyond the classroom.")
 
 # Education
-st.header("🎓 Education")
+st.markdown("### 🎓 Education")
 st.write("2023 - Present: Bachelor of Information Technology with Honours, UMK")
 
 # Work Experience
-st.header("💼 Work Experience")
+st.markdown("### 💼 Work Experience")
 st.write("2023: Graphic Designer (Internship), GIC Computer & Internet Centre")
 
 # Skills
-st.header("🛠 Skills")
+st.markdown("### 🛠 Skills")
 st.write("- Teamwork")
 st.write("- Creative & Organised")
 st.write("- Communication")
@@ -33,11 +33,11 @@ st.write("- Programming (Java, PHP, HTML, CSS)")
 st.write("- Web & Mobile App Development")
 
 # Projects / Achievements
-st.header("🚀 Projects & Achievements")
+st.markdown("### 🚀 Projects & Achievements")
 st.write("- Final Year Project: E-Attendance System using Arduino with fingerprint sensors")
 st.write("- Facilitator, Avira 1.0 Event (2024)")
 st.write("- Dean’s List Award (Semester 3)")
 
 # Reference
-st.header("📎 Reference")
+st.markdown("### 📎 Reference")
 st.write("Prof. Madya Dr. Nooraini Binti Yusoff - Advisor, Universiti Malaysia Kelantan")
