@@ -4,10 +4,7 @@ import streamlit as st
 st.title("CHARUKESHI A/P THINAGARAN")
 st.image("profile.jpeg", width=180,)
 
-# Centered profile image
-st.markdown(
-    """
-    <div style="text-align: center;">
+
         <img src="profile.jpeg" width="180">
    
 # Contact Information
