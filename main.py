@@ -1,7 +1,8 @@
 import streamlit as st
 
 # ===== Resume Page =====
-st.title("Charukeshi A/P Thinagaran - Resume")
+st.title("Charukeshi A/P Thinagaran")
+  st.image("profile.jpeg", width=180)
 
 # Contact Information
 st.header("📞 Contact Information")
