@@ -6,10 +6,10 @@ st.image("profile.jpeg", width=180)
 
 # Contact Information
 st.markdown("### 📞 Contact Information")
-st.write("📧 Email: charu.email@gmail.com")
-st.write("📱 Phone: +60 16-345 6789")
-st.write("🔗 LinkedIn: linkedin.com/in/charu-thinagaran")
-st.write("💻 GitHub: github.com/charukeshi")
+st.write(" Email: charu.email@gmail.com")
+st.write(" Phone: +60 16-345 6789")
+st.write(" LinkedIn: linkedin.com/in/charu-thinagaran")
+st.write(" GitHub: github.com/charukeshi")
 
 # About Me
 st.markdown("### 👩 About Me")
