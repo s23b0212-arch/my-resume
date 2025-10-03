@@ -2,11 +2,8 @@ import streamlit as st
 
 # ===== Resume Page =====
 st.title("CHARUKESHI A/P THINAGARAN")
-st.image("profile.jpeg", width=180,)
+st.image("profile.jpeg", width=180)
 
-
-        <img src="profile.jpeg" width="180">
-   
 # Contact Information
 st.markdown("### 📞 Contact Information")
 st.write(" Email: charukeshithinagaran.email@gmail.com")
