@@ -1,18 +1,39 @@
 import streamlit as st
 
 # ==========================
-# HEADER (Name & Title)
+# HEADER (Photo + Name)
 # ==========================
-st.markdown("<h1 style='text-align: center; color: #0E1117;'>CHARUKESHI A/P THINAGARAN</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: gray;'>IT STUDENT</h3>", unsafe_allow_html=True)
+col1, col2 = st.columns([1, 3])
+
+with col1:
+    st.image("profile.jpeg", width=180)  # <-- Make sure your photo file is named profile.jpeg
+
+with col2:
+    st.markdown("<h1 style='margin-bottom:0;'>CHARUKESHI A/P THINAGARAN</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color: gray; margin-top:0;'>IT Student</h3>", unsafe_allow_html=True)
+    st.write("📍 Kelantan, Malaysia")
+    st.write("📧 charu.email@example.com")
+    st.write("📞 +60 12-345 6789")
+    st.write("🔗 [LinkedIn](https://linkedin.com/in/charu-thinagaran) | [GitHub](https://github.com/charukeshi)")
+
 st.markdown("---")
 
 # ==========================
-# PROFILE
+# ABOUT ME
 # ==========================
-st.header("📌 Profile")
+st.header("🙋 About Me")
 st.write("""
 I am a fourth-semester undergraduate student at UMK, motivated and adaptable, seeking to expand my skills, gain new knowledge, and grow both personally and academically while embracing challenges beyond the classroom.
+""")
+
+st.markdown("""
+- **Date of Birth:** 29 April 2003  
+- **Gender:** Female  
+- **Race:** Indian  
+- **Religion:** Hindu  
+- **Nationality:** Malaysian  
+- **Email:** charu.email@example.com  
+- **Phone:** +60 12-345 6789  
 """)
 
 # ==========================
@@ -75,7 +96,7 @@ st.markdown("""
 - Teamwork  
 - Creative  
 - Organised  
-- Communication
+- Communication  
 """)
 
 # ==========================
