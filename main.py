@@ -4,7 +4,7 @@ import streamlit as st
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("profile.jpg", width=150)  # <-- replace with your photo file
+    st.image("profile.jpeg", width=150)  # <-- replace with your photo file
 
 with col2:
     st.title("Charu Thinagaran")
